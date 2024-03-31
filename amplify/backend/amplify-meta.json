@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactloginaws-dev-41ee7-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767397946054:role/amplify-reactloginaws-dev-41ee7-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767397946054:role/amplify-reactloginaws-dev-41ee7-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-reactloginaws-dev-41ee7-deployment",
+      "UnauthRoleName": "amplify-reactloginaws-dev-41ee7-unauthRole",
+      "StackName": "amplify-reactloginaws-dev-41ee7",
+      "StackId": "arn:aws:cloudformation:us-east-1:767397946054:stack/amplify-reactloginaws-dev-41ee7/c2af5870-ef44-11ee-a6cd-12ea9367e945",
+      "AmplifyAppId": "d3blq0uo1sftv"
+    }
+  },
+  "auth": {
+    "reactloginaws0af5cb0d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactloginaws-dev-41ee7-deployment/amplify-cfn-templates/auth/reactloginaws0af5cb0d-cloudformation-template.json",
+        "logicalId": "authreactloginaws0af5cb0d"
+      },
+      "lastPushTimeStamp": "2024-03-31T10:02:26.262Z",
+      "output": {
+        "UserPoolId": "us-east-1_BWd97YujX",
+        "AppClientIDWeb": "28pm6ptdnf8qlq1qs53h1kk63n",
+        "AppClientID": "3fuklhpthltfkv13mma2914a1",
+        "IdentityPoolId": "us-east-1:522c13cd-8d15-4d6d-95fb-0fc2d452e88a",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:767397946054:userpool/us-east-1_BWd97YujX",
+        "IdentityPoolName": "reactloginaws0af5cb0d_identitypool_0af5cb0d__dev",
+        "UserPoolName": "reactloginaws0af5cb0d_userpool_0af5cb0d"
+      },
+      "lastPushDirHash": "wwfQ+z4BqTy8hbOg12HR36gxhVg="
+    }
+  }
+}
